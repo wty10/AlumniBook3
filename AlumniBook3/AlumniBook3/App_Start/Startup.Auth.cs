@@ -6,6 +6,7 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using AlumniBook3.Models;
+using Owin.Security.Providers.LinkedIn;
 
 namespace AlumniBook3
 {
@@ -50,13 +51,17 @@ namespace AlumniBook3
             //    clientId: "",
             //    clientSecret: "");
 
-            //app.UseTwitterAuthentication(
-            //   consumerKey: "",
-            //   consumerSecret: "");
+            app.UseLinkedInAuthentication(
+                clientId: "77ciafbm5z7o7p",
+                clientSecret: "dRrJihfJrzGQtdb7");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseTwitterAuthentication(
+               consumerKey: "98o8VvM5vqeuneLDcOtNzT9Hy",
+               consumerSecret: "CTSKjYk24eW7y69SVpltz1oEWIW72Nkzq8Xr51GMfcC8lodlh8");
+
+            app.UseFacebookAuthentication(
+               appId: "1464866667162348",
+               appSecret: "f2c4ceef2b63323090a8d14ecf251ac1");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{

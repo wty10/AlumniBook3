@@ -1,0 +1,79 @@
+﻿@model AlumniBook3.Models.Discussion
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Discussion</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Category.CategoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category.CategoryName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Body)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Body)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PostDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PostDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Replies)
+        </dt>
+        <dd></dd>
+            
+        @foreach (var item in Model.Replies) { 
+        <dt>
+            @Html.DisplayNameFor(modelItem => item.Title)
+        </dt>
+        <dd>
+            @Html.DisplayFor(modelItem => item.Title)
+        </dd>
+            
+        <dt>
+            @Html.DisplayNameFor(modelItem => item.PostDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(modelItem => item.PostDate)
+        </dd>
+    <dt>
+        @Html.DisplayNameFor(modelItem => item.Body)
+    </dt>
+        <dd>
+            @Html.DisplayFor(modelItem => item.Body)
+        </dd>
+        }
+        
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.DiscussionID }) |
+    @Html.ActionLink("Reply", "Create", new { ReplyID = Model.DiscussionID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

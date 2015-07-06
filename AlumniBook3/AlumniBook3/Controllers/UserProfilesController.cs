@@ -8,6 +8,8 @@ using System.Web;
 using System.Web.Mvc;
 using AlumniBook3.DAL;
 using AlumniBook3.Models;
+using System.Data.Entity.Infrastructure;
+using PagedList;
 
 namespace AlumniBook3.Controllers
 {
@@ -16,9 +18,50 @@ namespace AlumniBook3.Controllers
         private AlumnibookContext db = new AlumnibookContext();
 
         // GET: UserProfiles
-        public ActionResult Index()
+        public ActionResult Index(string sortOrder, string currentFilter, string searchString, int? page)
         {
-            return View(db.UserProfiles.ToList());
+            ViewBag.CurrentSort = sortOrder;
+            ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+            ViewBag.GraduatedYearSortParm = sortOrder == "GraduatedYear" ? "GraduatedYear_desc" : "GraduatedYear";
+
+            if (searchString != null)
+            {
+                page = 1;
+            }
+            else
+            {
+                searchString = currentFilter;
+            }
+
+            ViewBag.CurrentFilter = searchString;
+
+            var userProfiles = from s in db.UserProfiles
+                           select s;
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                userProfiles = userProfiles.Where(s => s.LastName.Contains(searchString)
+                                       || s.FirstName.Contains(searchString));
+            }
+            switch (sortOrder)
+            {
+                case "name_desc":
+                    userProfiles = userProfiles.OrderByDescending(s => s.LastName);
+                    break;
+                case "GraduatedYear":
+                    userProfiles = userProfiles.OrderBy(s => s.GraduatedYear);
+                    break;
+                case "GraduatedYear_desc":
+                    userProfiles = userProfiles.OrderByDescending(s => s.GraduatedYear);
+                    break;
+                default:  // Name ascending 
+                    userProfiles = userProfiles.OrderBy(s => s.LastName);
+                    break;
+            }
+
+            int pageSize = 3;
+            int pageNumber = (page ?? 1);
+            return View(userProfiles.ToPagedList(pageNumber, pageSize));
+            //return View(db.UserProfiles.ToList());
         }
 
         // GET: UserProfiles/Details/5

@@ -15,6 +15,9 @@ namespace AlumniBook3.DAL
         }
         public DbSet<UserProfile> UserProfiles { get; set; }
         public DbSet<Achievement> Achievements { get; set; }
+        public DbSet<Discussion> Discussions { get; set; }
+        public DbSet<Category> Categories { get; set; }
+
 
     }
 }

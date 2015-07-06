@@ -54,3 +54,73 @@ E:\Esigelec作业\AlumniBook3\AlumniBook3\obj\Debug\AlumniBook3.dll
 E:\Esigelec作业\AlumniBook3\AlumniBook3\obj\Debug\AlumniBook3.pdb
 E:\Esigelec作业\AlumniBook3\AlumniBook3\obj\Debug\AlumniBook3.Migrations.InitialCreate.resources
 E:\Esigelec作业\AlumniBook3\AlumniBook3\obj\Debug\AlumniBook3.csproj.GenerateResource.Cache
+E:\Esigelec作业\AlumniBook3\AlumniBook3\obj\Debug\AlumniBook3.csprojResolveAssemblyReference.cache
+E:\Esigelec作业\AlumniBook3\AlumniBook3\bin\Owin.Security.Providers.dll
+E:\Esigelec作业\AlumniBook3\AlumniBook3\bin\PagedList.dll
+E:\Esigelec作业\AlumniBook3\AlumniBook3\bin\PagedList.Mvc.dll
+E:\Esigelec作业\AlumniBook3\AlumniBook3\bin\PagedList.xml
+E:\Esigelec作业\AlumniBook3\AlumniBook3\bin\PagedList.Mvc.xml
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\AlumniBook3.dll.config
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\AlumniBook3.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\AlumniBook3.pdb
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Antlr3.Runtime.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\EntityFramework.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\EntityFramework.SqlServer.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Microsoft.Owin.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Microsoft.Owin.Security.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Microsoft.Owin.Security.Google.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Microsoft.Web.Infrastructure.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Newtonsoft.Json.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Owin.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Owin.Security.Providers.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\PagedList.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\PagedList.Mvc.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\System.Web.Helpers.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\System.Web.Mvc.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\System.Web.Optimization.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\System.Web.Razor.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\System.Web.WebPages.Deployment.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\System.Web.WebPages.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\System.Web.WebPages.Razor.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\WebGrease.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\EntityFramework.xml
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\EntityFramework.SqlServer.xml
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\PagedList.xml
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\PagedList.Mvc.xml
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\System.Web.Helpers.xml
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\System.Web.Mvc.xml
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\System.Web.Optimization.xml
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\System.Web.Razor.xml
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\System.Web.WebPages.xml
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\System.Web.WebPages.Deployment.xml
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\System.Web.WebPages.Razor.xml
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Antlr3.Runtime.pdb
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Newtonsoft.Json.xml
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Microsoft.Owin.xml
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Microsoft.Owin.Security.xml
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Microsoft.Owin.Security.Google.xml
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\obj\Debug\AlumniBook3.Migrations.InitialCreate.resources
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\obj\Debug\AlumniBook3.csproj.GenerateResource.Cache
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\obj\Debug\AlumniBook3.dll
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\obj\Debug\AlumniBook3.pdb
+E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\obj\Debug\AlumniBook3.Migrations.Forum.resources
+E:\Esigelec作业\AlumniBook3\AlumniBook3\obj\Debug\AlumniBook3.Migrations.Forum.resources
+E:\Esigelec作业\AlumniBook3\AlumniBook3\obj\Debug\AlumniBook3.Migrations.replies.resources

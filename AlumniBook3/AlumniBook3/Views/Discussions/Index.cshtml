@@ -1,0 +1,57 @@
+﻿@model IEnumerable<AlumniBook3.Models.Discussion>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Category.CategoryName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Body)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PostDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ReplyID)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Category.CategoryName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Body)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PostDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ReplyID)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.DiscussionID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.DiscussionID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.DiscussionID })
+        </td>
+    </tr>
+}
+
+</table>
