@@ -31,6 +31,7 @@ namespace AlumniBook3.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             Discussion discussion = db.Discussions.Find(id);
+
             if (discussion == null)
             {
                 return HttpNotFound();
@@ -42,6 +43,20 @@ namespace AlumniBook3.Controllers
             {
                 if(d.ReplyID==id){
                     discussion.Replies.Add(d);
+                }
+            }
+            foreach (UserProfile u in db.UserProfiles)
+            {
+                if (u.Email.Equals(discussion.Email))
+                {
+                    discussion.User = u;
+                }
+                foreach (Discussion r in discussion.Replies)
+                {
+                    if (u.Email.Equals(r.Email))
+                    {
+                        r.User = u;
+                    }
                 }
             }
             
@@ -70,13 +85,15 @@ namespace AlumniBook3.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "DiscussionID,CategoryID,Title,Body,PostDate,ReplyID")] Discussion discussion)
+        public ActionResult Create([Bind(Include = "DiscussionID,CategoryID,Title,Body,PostDate,ReplyID,Email")] Discussion discussion)
         {
             try
             {
 
             if (ModelState.IsValid)
             {
+                discussion.PostDate=DateTime.Now;
+                
                 db.Discussions.Add(discussion);
                 db.SaveChanges();
                 return RedirectToAction("Index");
@@ -114,10 +131,11 @@ namespace AlumniBook3.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "DiscussionID,CategoryID,Title,Body,PostDate,ReplyID")] Discussion discussion)
+        public ActionResult Edit([Bind(Include = "DiscussionID,CategoryID,Title,Body,PostDate,ReplyID,Email")] Discussion discussion)
         {
             if (ModelState.IsValid)
             {
+                discussion.PostDate = DateTime.Now;
                 db.Entry(discussion).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");

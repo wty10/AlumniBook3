@@ -14,8 +14,9 @@ namespace AlumniBook3.Models
         public string Body { get; set; }
         public DateTime PostDate { get; set; }
         public int ReplyID { get; set; }
+        public string Email { get; set; }
         public UserProfile User { get; set; }
-
+        
         public virtual Category Category { get; set; }
         public virtual ICollection<Discussion> Replies { get; set; }
     }

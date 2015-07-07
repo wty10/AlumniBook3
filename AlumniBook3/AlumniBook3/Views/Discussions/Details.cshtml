@@ -9,68 +9,43 @@
 <div>
     <h4>Discussion</h4>
     <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Category.CategoryName)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Category.CategoryName)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Title)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Title)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Body)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Body)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.PostDate)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.PostDate)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Replies)
-        </dt>
-        <dd></dd>
-            
-        @foreach (var item in Model.Replies) { 
-        <dt>
-            @Html.DisplayNameFor(modelItem => item.Title)
-        </dt>
-        <dd>
-            @Html.DisplayFor(modelItem => item.Title)
-        </dd>
-            
-        <dt>
-            @Html.DisplayNameFor(modelItem => item.PostDate)
-        </dt>
-        <dd>
-            @Html.DisplayFor(modelItem => item.PostDate)
-        </dd>
-    <dt>
-        @Html.DisplayNameFor(modelItem => item.Body)
-    </dt>
-        <dd>
-            @Html.DisplayFor(modelItem => item.Body)
-        </dd>
-        }
+    <table class="table-bordered">
+        <tr>
+            <td>
+                <img src="@Html.DisplayFor(model => model.User.PhotoUrl)" /><br />
+                @Html.DisplayFor(model => model.User.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.Category.CategoryName)
+                @Html.DisplayFor(model => model.Title)
+                @Html.DisplayFor(model => model.PostDate)<br/>
+                @Html.DisplayFor(model => model.Body)
+            </td>
+        </tr>
         
+    </table>
+    <table class ="table">
+        @foreach (var item in Model.Replies)
+        {
+            <tr>
+                <td width="200">
+                    <img src="@Html.DisplayFor(modelItem => item.User.PhotoUrl)" />
+                    @Html.DisplayFor(modelItem => item.User.FirstName)
+                </td>
+                <td>
+                    <p>@Html.DisplayFor(modelItem => item.Title)</p>
+                    <div class="text-right">@Html.DisplayFor(modelItem => item.PostDate)</div><br />
+                    <p>@Html.DisplayFor(modelItem => item.Body)</p>
+</td>
+            </tr>
+            
 
-    </dl>
+        }
+    </table>
+
+
+
+    
 </div>
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.DiscussionID }) |

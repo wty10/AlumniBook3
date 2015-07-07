@@ -20,6 +20,7 @@
 }
 <table class="table">
     <tr>
+        <th></th>
         <th>
             @Html.ActionLink("Last Name", "Index", new { sortOrder = ViewBag.NameSortParm })
         </th>
@@ -41,6 +42,9 @@
 
 @foreach (var item in Model) {
     <tr>
+        <td>
+            <img src="@Html.DisplayFor(modelItem => item.PhotoUrl)" />
+        </td>
         <td>
             @Html.DisplayFor(modelItem => item.LastName)
         </td>

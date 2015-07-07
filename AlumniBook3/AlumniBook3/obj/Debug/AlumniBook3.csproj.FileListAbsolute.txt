@@ -124,3 +124,4 @@ E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\obj\Debug\AlumniBook3.pdb
 E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\obj\Debug\AlumniBook3.Migrations.Forum.resources
 E:\Esigelec作业\AlumniBook3\AlumniBook3\obj\Debug\AlumniBook3.Migrations.Forum.resources
 E:\Esigelec作业\AlumniBook3\AlumniBook3\obj\Debug\AlumniBook3.Migrations.replies.resources
+E:\Esigelec作业\AlumniBook3\AlumniBook3\obj\Debug\AlumniBook3.Migrations.attributechange.resources
