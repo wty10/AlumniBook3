@@ -54,7 +54,6 @@ E:\Esigelec作业\AlumniBook3\AlumniBook3\obj\Debug\AlumniBook3.dll
 E:\Esigelec作业\AlumniBook3\AlumniBook3\obj\Debug\AlumniBook3.pdb
 E:\Esigelec作业\AlumniBook3\AlumniBook3\obj\Debug\AlumniBook3.Migrations.InitialCreate.resources
 E:\Esigelec作业\AlumniBook3\AlumniBook3\obj\Debug\AlumniBook3.csproj.GenerateResource.Cache
-E:\Esigelec作业\AlumniBook3\AlumniBook3\obj\Debug\AlumniBook3.csprojResolveAssemblyReference.cache
 E:\Esigelec作业\AlumniBook3\AlumniBook3\bin\Owin.Security.Providers.dll
 E:\Esigelec作业\AlumniBook3\AlumniBook3\bin\PagedList.dll
 E:\Esigelec作业\AlumniBook3\AlumniBook3\bin\PagedList.Mvc.dll
@@ -125,3 +124,7 @@ E:\Esigelec作业\AlumniBook3 - Copy\AlumniBook3\obj\Debug\AlumniBook3.Migration
 E:\Esigelec作业\AlumniBook3\AlumniBook3\obj\Debug\AlumniBook3.Migrations.Forum.resources
 E:\Esigelec作业\AlumniBook3\AlumniBook3\obj\Debug\AlumniBook3.Migrations.replies.resources
 E:\Esigelec作业\AlumniBook3\AlumniBook3\obj\Debug\AlumniBook3.Migrations.attributechange.resources
+E:\Esigelec作业\AlumniBook3\AlumniBook3\obj\Debug\AlumniBook3.Migrations.achievementchange.resources
+E:\Esigelec作业\AlumniBook3\AlumniBook3\obj\Debug\AlumniBook3.Migrations.achievement.resources
+E:\Esigelec作业\AlumniBook3\AlumniBook3\obj\Debug\AlumniBook3.csprojResolveAssemblyReference.cache
+E:\Esigelec作业\AlumniBook3\AlumniBook3\obj\Debug\AlumniBook3.Migrations.Chat.resources
